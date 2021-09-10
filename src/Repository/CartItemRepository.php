@@ -4,6 +4,11 @@ namespace Acme\Sales\Repository;
 
 use Acme\Sales\Entity\CartItem;
 
+/**
+ * Cart Item Repository class
+ *
+ * @package Acme\Sales\Repository
+ */
 class CartItemRepository extends Repository
 {
 

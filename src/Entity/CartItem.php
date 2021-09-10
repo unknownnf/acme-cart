@@ -2,6 +2,11 @@
 
 namespace Acme\Sales\Entity;
 
+/**
+ * Cart item class
+ *
+ * @package Acme\Sales\Entity
+ */
 class CartItem
 {
 

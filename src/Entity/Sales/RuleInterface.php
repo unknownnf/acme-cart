@@ -4,6 +4,11 @@ namespace Acme\Sales\Entity\Sales;
 
 use Acme\Sales\Entity\Cart;
 
+/**
+ * Sales Rule interface
+ *
+ * @package Acme\Sales\Entity\Shipping
+ */
 interface RuleInterface
 {
     /**

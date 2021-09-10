@@ -4,6 +4,11 @@ namespace Acme\Sales\Repository;
 
 use Acme\Sales\Entity\Product;
 
+/**
+ * Product Repository class
+ *
+ * @package Acme\Sales\Repository
+ */
 class ProductRepository extends Repository
 {
 

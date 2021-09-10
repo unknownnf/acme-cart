@@ -5,6 +5,11 @@ namespace Acme\Sales\Repository;
 use ArrayAccess;
 use ArrayIterator;
 
+/**
+ * Generic Repository class
+ *
+ * @package Acme\Sales\Repository
+ */
 class Repository implements ArrayAccess, \IteratorAggregate
 {
     protected array $items = [];
