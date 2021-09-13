@@ -96,10 +96,10 @@ $cart->removeProduct('R01');
 
 ## Tests
 
-Tests can be with docker using `docker-compose up`.
+Unit tests can be with docker using `docker-compose run --rm codecept run unit`, acceptance tests are run on docker start after the web container is online.
 
 If docker is not available codeception can be used, first install dependencies by running `composer install` in the
-project folder then `vendor/bin/codecept run` would go through all unit tests.
+project folder then `vendor/bin/codecept run unit` would go through all unit tests.
 
 ```
 Unit Tests (23)

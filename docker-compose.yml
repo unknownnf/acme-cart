@@ -1,7 +1,15 @@
 version: '3.8'
 services:
-  test:
-    build: .
-    command: 'php vendor/bin/codecept run'
+  codecept:
+    build: ./docker/codecept/
+    depends_on:
+      - web
     volumes:
-      - .:/var/www
+      - .:/project
+    command: "run"
+  web:
+    build: ./docker/php/
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
